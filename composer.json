@@ -1,0 +1,13 @@
+{
+    "name": "recsys/common",
+    "description": "Core components for the Recsys PHP payment processing library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JimChen",
+            "email": "18219111672@163.com"
+        }
+    ],
+    "require": {}
+}
