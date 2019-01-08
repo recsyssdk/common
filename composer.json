@@ -27,8 +27,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Recsys\\": "src"
-        }
+            "Recsys\\Common\\": "src/Common"
+        },
+        "classmap": [
+            "src/Recsys.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
