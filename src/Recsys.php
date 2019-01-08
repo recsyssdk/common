@@ -11,7 +11,13 @@
 namespace Recsys;
 
 use Recsys\Common\GatewayFactory;
+use Recsys\Common\GatewayInterface;
 
+/**
+ * Class Recsys
+ *
+ * @method static GatewayInterface create($gateway) create a gateway
+ */
 class Recsys
 {
     /**
