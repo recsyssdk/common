@@ -1,6 +1,6 @@
 # Recsys Common
 
-**Core components for the Recsys PHP payment processing library**
+**Core components for the Recsys PHP processing library**
 
 [![Build Status](https://www.travis-ci.org/RecsysIntegration/common.svg?branch=master)](https://www.travis-ci.org/RecsysIntegration/common)
 
