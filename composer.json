@@ -1,6 +1,13 @@
 {
     "name": "recsys/common",
     "description": "Core components for the Recsys PHP payment processing library",
+    "keywords": [
+        "gateway",
+        "recsys",
+        "recommend",
+        "recommender system",
+        "php-sdk"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,5 +16,28 @@
             "email": "18219111672@163.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.5",
+        "jimchen/utils": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.36",
+        "mockery/mockery": "0.9.x-dev",
+        "friendsofphp/php-cs-fixer": "^2.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Recsys\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Recsys\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
