@@ -11,7 +11,6 @@
 namespace Recsys\Tests;
 
 use Mockery as m;
-use PHPUnit\Framework\TestCase;
 use Recsys\Recsys;
 
 class RecsysTest extends TestCase

@@ -15,8 +15,9 @@ use Mockery as m;
 use Mockery\Mock;
 use Recsys\Common\GatewayFactory;
 use Recsys\Common\Message\RequestInterface;
+use PHPUnit\Framework\TestCase as BaseTestCase;
 
-class TestCase extends \PHPUnit\Framework\TestCase
+class TestCase extends BaseTestCase
 {
     /**
      * @var Mock
