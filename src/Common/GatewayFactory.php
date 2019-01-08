@@ -85,6 +85,11 @@ class GatewayFactory
             return $shortName;
         }
 
+        // replace underscores with namespace marker, PSR-0 style
+        $shortName = str_replace('_', '\\', $shortName);
+        if (false === strpos($shortName, '\\')) {
+            $shortName .= '\\';
+        }
         return '\\Recsys\\'.$shortName.'Gateway';
     }
 }

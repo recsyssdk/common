@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1546930682">
+  <project timestamp="1546930682">
+    <package name="Recsys\Common">
+      <file name="E:\Desktop\open-source\recsys-common\src/Common/AbstractGateway.php">
+        <class name="AbstractGateway" namespace="Recsys\Common">
+          <metrics methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="19" coveredelements="19"/>
+        </class>
+        <line num="44" type="method" name="__construct" crap="1" count="4"/>
+        <line num="46" type="stmt" count="4"/>
+        <line num="47" type="stmt" count="4"/>
+        <line num="48" type="stmt" count="4"/>
+        <line num="57" type="method" name="initialize" crap="1" count="6"/>
+        <line num="59" type="stmt" count="6"/>
+        <line num="61" type="stmt" count="6"/>
+        <line num="72" type="method" name="createRequest" crap="1" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="87" type="method" name="getDefaultHttpClient" crap="1" count="4"/>
+        <line num="89" type="stmt" count="4"/>
+        <line num="99" type="method" name="support" crap="1" count="2"/>
+        <line num="101" type="stmt" count="2"/>
+        <line num="112" type="method" name="__call" crap="2" count="2"/>
+        <line num="114" type="stmt" count="2"/>
+        <line num="115" type="stmt" count="1"/>
+        <line num="117" type="stmt" count="1"/>
+        <line num="120" type="stmt" count="1"/>
+        <metrics loc="122" ncloc="58" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="19" coveredelements="19"/>
+      </file>
+      <file name="E:\Desktop\open-source\recsys-common\src/Common/GatewayFactory.php">
+        <class name="GatewayFactory" namespace="Recsys\Common">
+          <metrics methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="21" coveredelements="21"/>
+        </class>
+        <line num="29" type="method" name="all" crap="1" count="3"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="39" type="method" name="replace" crap="1" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="49" type="method" name="register" crap="2" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="65" type="method" name="create" crap="2" count="3"/>
+        <line num="67" type="stmt" count="3"/>
+        <line num="68" type="stmt" count="3"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="2"/>
+        <line num="82" type="method" name="getGatewayClassName" crap="3" count="3"/>
+        <line num="84" type="stmt" count="3"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="2"/>
+        <line num="90" type="stmt" count="2"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="93" type="stmt" count="2"/>
+        <metrics loc="95" ncloc="50" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="21" coveredelements="21"/>
+      </file>
+      <file name="E:\Desktop\open-source\recsys-common\src/Common/Parameters.php">
+        <class name="Parameters" namespace="Recsys\Common">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="17" type="method" name="set" crap="1" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <metrics loc="21" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="E:\Desktop\open-source\recsys-common\src/Common/ParametersTrait.php">
+        <class name="ParametersTrait" namespace="Recsys\Common">
+          <metrics methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="11" elements="17" coveredelements="15"/>
+        </class>
+        <line num="32" type="method" name="setParameter" crap="1" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="44" type="method" name="getParameter" crap="1" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="54" type="method" name="getParameters" crap="1" count="7"/>
+        <line num="56" type="stmt" count="7"/>
+        <line num="68" type="method" name="initialize" crap="1" count="3"/>
+        <line num="70" type="stmt" count="3"/>
+        <line num="72" type="stmt" count="3"/>
+        <line num="85" type="method" name="validate" crap="3.04" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="90" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="1"/>
+        <line num="94" type="stmt" count="0"/>
+        <metrics loc="95" ncloc="46" classes="1" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="11" elements="17" coveredelements="15"/>
+      </file>
+    </package>
+    <package name="Recsys\Common\Exception">
+      <file name="E:\Desktop\open-source\recsys-common\src/Common/Exception/InvalidRequestException.php">
+        <class name="InvalidRequestException" namespace="Recsys\Common\Exception">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="15" ncloc="8" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="E:\Desktop\open-source\recsys-common\src/Common/Exception/RuntimeException.php">
+        <class name="RuntimeException" namespace="Recsys\Common\Exception">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="15" ncloc="8" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="E:\Desktop\open-source\recsys-common\src/Common/Exception/UnknownMethodException.php">
+        <class name="UnknownMethodException" namespace="Recsys\Common\Exception">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="15" ncloc="8" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="E:\Desktop\open-source\recsys-common\src/Common/Exception/RecsysException.php">
+      <metrics loc="15" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="E:\Desktop\open-source\recsys-common\src/Common/GatewayInterface.php">
+      <metrics loc="41" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="Recsys\Common\Message">
+      <file name="E:\Desktop\open-source\recsys-common\src/Common/Message/AbstractRequest.php">
+        <class name="AbstractRequest" namespace="Recsys\Common\Message">
+          <metrics methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="12" elements="20" coveredelements="16"/>
+        </class>
+        <line num="43" type="method" name="__construct" crap="1" count="4"/>
+        <line num="45" type="stmt" count="4"/>
+        <line num="46" type="stmt" count="4"/>
+        <line num="47" type="stmt" count="4"/>
+        <line num="60" type="method" name="initialize" crap="2" count="6"/>
+        <line num="62" type="stmt" count="6"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="6"/>
+        <line num="68" type="stmt" count="6"/>
+        <line num="76" type="method" name="getResponse" crap="6" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="90" type="method" name="send" crap="1" count="2"/>
+        <line num="92" type="stmt" count="2"/>
+        <line num="94" type="stmt" count="2"/>
+        <line num="107" type="method" name="setParameter" crap="2" count="2"/>
+        <line num="109" type="stmt" count="2"/>
+        <line num="110" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <metrics loc="115" ncloc="62" classes="1" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="12" elements="20" coveredelements="16"/>
+      </file>
+      <file name="E:\Desktop\open-source\recsys-common\src/Common/Message/AbstractResponse.php">
+        <class name="AbstractResponse" namespace="Recsys\Common\Message">
+          <metrics methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="12" coveredelements="12"/>
+        </class>
+        <line num="35" type="method" name="__construct" crap="1" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="46" type="method" name="getRequest" crap="1" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="56" type="method" name="getData" crap="1" count="2"/>
+        <line num="58" type="stmt" count="2"/>
+        <line num="66" type="method" name="getMessage" crap="1" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="76" type="method" name="getCode" crap="1" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <metrics loc="80" ncloc="37" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="12" coveredelements="12"/>
+      </file>
+    </package>
+    <file name="E:\Desktop\open-source\recsys-common\src/Common/Message/MessageInterface.php">
+      <metrics loc="22" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="E:\Desktop\open-source\recsys-common\src/Common/Message/RequestInterface.php">
+      <metrics loc="51" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="E:\Desktop\open-source\recsys-common\src/Common/Message/ResponseInterface.php">
+      <metrics loc="42" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="Recsys">
+      <file name="E:\Desktop\open-source\recsys-common\src/Recsys.php">
+        <class name="Recsys" namespace="Recsys">
+          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="10" coveredelements="10"/>
+        </class>
+        <line num="37" type="method" name="getFactory" crap="2" count="3"/>
+        <line num="39" type="stmt" count="3"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="3"/>
+        <line num="51" type="method" name="setFactory" crap="1" count="3"/>
+        <line num="53" type="stmt" count="3"/>
+        <line num="54" type="stmt" count="3"/>
+        <line num="66" type="method" name="__callStatic" crap="1" count="1"/>
+        <line num="68" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <metrics loc="72" ncloc="33" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="10" coveredelements="10"/>
+      </file>
+    </package>
+    <metrics files="15" loc="816" ncloc="384" classes="10" methods="30" coveredmethods="28" conditionals="0" coveredconditionals="0" statements="72" coveredstatements="68" elements="102" coveredelements="96"/>
+  </project>
+</coverage>

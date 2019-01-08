@@ -41,6 +41,11 @@ class GatewayFactoryTest extends TestCase
         $this->factory->register('Bar');
         $this->assertSame(['Milky', 'Bar'], $this->factory->all());
     }
+    public function testCreateShortName()
+    {
+        $gateway = $this->factory->create('Advance_Test');
+        $this->assertInstanceOf('\\Recsys\\Advance\\TestGateway', $gateway);
+    }
     public function testCreateFullyQualified()
     {
         $gateway = $this->factory->create('\\Recsys\\Advance\\TestGateway');
@@ -48,7 +53,7 @@ class GatewayFactoryTest extends TestCase
     }
     /**
      * @expectedException \Recsys\Common\Exception\RuntimeException
-     * @expectedExceptionMessage Class '\Recsys\InvalidGateway' not found
+     * @expectedExceptionMessage Class '\Recsys\Invalid\Gateway' not found
      */
     public function testCreateInvalid()
     {
